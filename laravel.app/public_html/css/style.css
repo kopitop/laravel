@@ -1,0 +1,55 @@
+/*CONTAINER*/
+#app{
+	min-height: 100vh;
+}
+.sidebar li ul{
+	display: none;
+}
+.fa-ul{
+	margin-left: 0;
+}
+.fa-li{
+	position: static;
+}
+.table > tbody > tr > td, .table > tbody > tr > th, 
+.table > tfoot > tr > td, .table > tfoot > tr > th, 
+.table > thead > tr > td, .table > thead > tr > th{
+	border-top: none;
+}
+.table-striped > tbody > tr:nth-of-type(2n+1){
+	background: #fff;
+}
+.table{
+	border: 1px solid #d3e0e9;
+	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+	border-collapse: separate;
+	border-radius: 4px;
+}
+.table td:nth-child(1){
+	width: 10%;
+}
+.table td:nth-child(3){
+	width: 25%;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover{
+	background: none;
+}
+.nav-pills > li.active,
+.nav-pills > li.active,
+.nav-pills > li.active{
+	background: #3097D1;
+}
+/*FOOTER*/
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: #fff;
+	border:solid 1px #d3e0e9;
+	padding-top: 15px;
+}
+footer p{
+	font-size: 12px;
+}

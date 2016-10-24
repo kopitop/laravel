@@ -1,0 +1,1 @@
+<p class="text-center">Copyright Nguyen Minh Hiep &copy; 2016 <br> nguyen.minh.hiep@framgia.com - 0906351992</p>
